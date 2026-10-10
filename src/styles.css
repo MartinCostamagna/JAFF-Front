@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+/* Pagina en si (Parte del medio) */
+.divContenidoPrincipal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.divContenidoPrincipal>* {
+    flex: 1;
+}
